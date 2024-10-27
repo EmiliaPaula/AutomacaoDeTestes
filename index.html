@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Leilão de Produto</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Leilão de Produto</h1>
+    <p><strong>Produto:</strong> Celular</p>
+    <p><strong>Descrição:</strong> Este é um produto incrível!</p>
+    <p><strong>Lance mínimo:</strong> R$ <span id="min-bid">100.00</span></p>
+
+    <input type="number" id="bid-input" placeholder="Insira seu lance">
+    <button id="bid-button">Enviar Lance</button>
+
+    <p id="message" class="hidden"></p>
+  </div>
+
+  <script src="leilao.js"></script>
+</body>
+
+</html>
