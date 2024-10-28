@@ -18,7 +18,7 @@ o Node.js a partir de [nodejs.org](https://nodejs.org/).
 1. **Clone o Repositório**
    Abra um terminal e clone este repositório com o comando:
    ```bash
-   git clone <https://github.com/EmiliaPaula/AutomacaoDeTestes.git>
+   git clone https://github.com/EmiliaPaula/AutomacaoDeTestes.git
 
 
 2. **Navegue até a Pasta do Projeto**
